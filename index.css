@@ -1,0 +1,96 @@
+body {
+    background-image: url(img/herd_of_zebras-wallpaper-1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-bottom: 1000px;
+}
+
+header img {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+div h1 {
+    color: white;
+    font-family: 'Coustard', serif;
+    opacity: 0.9;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+.principal {
+    margin-bottom: 280px;
+}
+
+div h2 {
+    color: white;
+    font-family: 'Vollkorn', serif;
+    opacity: 0.9;
+    text-align: center;
+    margin-top:55px;
+}
+
+.uno {
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.uno p {
+    font-family: 'Vollkorn', serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.uno img {
+    height: 300px;
+    width: 400px;
+}
+
+.dos {
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 100px;
+    position: absolute;
+    right: 0px;
+}
+
+.dos p {
+    font-family: 'Vollkorn', serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tres {
+    height: 300px;
+    width: 400px;
+    background-image: url(img/leon-hd.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.tres p {
+    font-family: 'Vollkorn', serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tr
