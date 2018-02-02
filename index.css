@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    padding-bottom: 1000px;
+    padding-bottom: 500px;
 }
 
 header img {
@@ -34,45 +34,76 @@ div h2 {
     font-family: 'Vollkorn', serif;
     opacity: 0.9;
     text-align: center;
-    margin-top:55px;
+    margin-top: 55px;
+}
+
+.padre1 {
+    position: relative;
 }
 
 .uno {
     height: 300px;
     width: 400px;
+    background-image: url(img/african_lion_king-wide.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-left: 50px;
-    display: inline-block;
+    border: 8px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: absolute;
 }
 
-.uno p {
+.subuno {
+    height: 300px;
+    position: relative;
+    margin-left: 350px;
+    top: 100px;
+}
+
+.subuno p {
     font-family: 'Vollkorn', serif;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.uno img {
-    height: 300px;
-    width: 400px;
+.padredos {
+    position: relative;
+    margin-top: 150px;
 }
 
 .dos {
     height: 300px;
     width: 400px;
+    background-image: url(img/webpuentecolgante.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top: 100px;
+    border: 8px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     position: absolute;
-    right: 0px;
+    right: 50px;
 }
 
-.dos p {
+.subdos {
+    height: 300px;
+    position: relative;
+}
+
+.subdos p {
     font-family: 'Vollkorn', serif;
-    color: black;
-    font-size: 30px;
+    color: white;
+    font-size: 25px;
     text-align: center;
+    margin-right: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.padre3 {
+    position: relative;
+    margin-top: 150px;
 }
 
 .tres {
@@ -81,16 +112,96 @@ div h2 {
     background-image: url(img/leon-hd.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top: 500px;
     position: absolute;
     margin-left: 50px;
+    border: 8px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
-.tres p {
+.subtres {
+    position: relative;
+    top: 80px;
+}
+
+.subtres p {
     font-family: 'Vollkorn', serif;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 50px;
+}
+
+.padre4 {
+    position: relative;
+    margin-top: 250px;
+}
+
+.cuatro h3 {
+    font-size: 25px;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.cuatro {
+    height: 450px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 50px;
+}
+
+.subcuatro {
+    position: relative;
+}
+
+.subcuatro h3{
+    position:absolute;
+    right:150px;
+    top:50px;
+    color:white;
+}
+.subcuatro p {
+    font-family: 'Vollkorn', serif;
+    color: white;
+    font-size: 18px;
     text-align: center;
 }
 
-.tr
+form {
+    color: white;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.padre5 {
+    position: relative;
+    margin-top: 800px;
+}
+
+.subcinco {
+    position: absolute;
+}
+
+.cinco {
+    height: 300px;
+    width: 400px;
+    background-image: url(img/pexels-photo-213988.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 8px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.subcinco p {
+    font-family: 'Vollkorn', serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
