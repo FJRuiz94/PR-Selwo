@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    padding-bottom: 500px;
+    padding-bottom: 200px;
 }
 
 header img {
@@ -97,8 +97,8 @@ div h2 {
     font-size: 25px;
     text-align: center;
     margin-right: 600px;
-    margin-top: 50px;
     margin-left: 50px;
+    padding-top:50px;
 }
 
 .padre3 {
@@ -120,21 +120,22 @@ div h2 {
 
 .subtres {
     position: relative;
-    top: 80px;
+    height: 300px;
 }
 
 .subtres p {
     font-family: 'Vollkorn', serif;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     margin-left: 550px;
     margin-right: 50px;
+    padding-top:50px;
 }
 
 .padre4 {
     position: relative;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 .cuatro h3 {
@@ -146,23 +147,29 @@ div h2 {
 }
 
 .cuatro {
-    height: 450px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
+    background-image: url(img/ticket-1539705_640.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: absolute;
-    right: 50px;
+    right:50px;
+    border: 8px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .subcuatro {
     position: relative;
+    height: 300px;
 }
 
 .subcuatro h3{
     position:absolute;
     right:150px;
-    top:50px;
+    top:10px;
     color:white;
+    
+    letter-spacing: 1px;
 }
 .subcuatro p {
     font-family: 'Vollkorn', serif;
@@ -179,17 +186,20 @@ form {
 
 .padre5 {
     position: relative;
-    margin-top: 800px;
+    margin-top:150px;
 }
 
 .subcinco {
-    position: absolute;
+    position: relative;
+    height: 300px;
+    margin-left:450px;
+    padding-top:15px;
 }
 
 .cinco {
     height: 300px;
     width: 400px;
-    background-image: url(img/pexels-photo-213988.jpeg);
+    background-image: url(img/pexels-photo-210647.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: absolute;
@@ -201,7 +211,8 @@ form {
 
 .subcinco p {
     font-family: 'Vollkorn', serif;
-    color: black;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 60px;
+}
